@@ -1,6 +1,6 @@
 import { AppPage } from './app.po';
 
-describe('quotes App', () => {
+describe('git-search App', () => {
   let page: AppPage;
 
   beforeEach(() => {

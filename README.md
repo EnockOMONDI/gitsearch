@@ -1,4 +1,4 @@
-# Github search v1.0.0
+# Github search 
 
 This is an angular based project that is used to search for Repositories and users on github by typing their username or repository name.
 
@@ -25,8 +25,8 @@ Version 1.0.0
 
 ## Authors
 
-* **Victoria Mutai**
-[VickyMutai](https://github.com/VickyMutai)
+* **enock omondi**
+[Enockomondi] (https://enockomondi.github.io/gitsearch/)
 
 ## License
 

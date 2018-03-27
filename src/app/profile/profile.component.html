@@ -1,7 +1,7 @@
 <div class="container">
 <form class="search-form">
   <div class="form-group">
-    <input type="text" class="form-control" placeholder="search git hub user..." [(ngModel)]="username" name="username" (keyup)="findUser()">
+    <input class="form-control mr-sm-2" type="text" placeholder="search github user"[(ngModel)]="username" name="username" (keyup)="findUser()">
   </div>
 </form>
 
@@ -13,11 +13,11 @@
       {{profile.location}}
     </div>
     <div class="panel-body">
-      <div class="col-sm-3">
+      <div class="col-sm-5">
         <img src="{{profile.avatar_url}}" class="img-circle img-responsive"
         alt="Profile Picture"/>
       </div>
-      <div class="col-sm-5">
+      <div class="col-sm-3">
         <ul class="list-group">
           <li class="list-group-item" *ngIf="profile.bio">{{profile.bio}}</li>
           <li class="list-group-item" *ngIf="profile.hireable">Available for hire</li>
@@ -25,13 +25,13 @@
           <li class="list-group-item" *ngIf="profile.email"><a href="emailto:{{profile.email}}">{{profile.email}}</a></li>
         </ul>
       </div>
-      <div class="col-sm-4">
+      <div class="col-sm-6">
         <div>
           <p>
-            <span class="label label-default">{{profile.followers}} Followers</span>
-            <span class="label label-primary">Following {{profile.following}}</span>
-            <span class="label label-success">{{profile.public_gists}} Public Gists</span>
-            <span class="label label-success">{{profile.public_repos}} Public Repos</span>
+            <span class="badge badge-dark">{{profile.followers}} Followers</span>
+            <span class="badge badge-dark">Following {{profile.following}}</span>
+            <span class="badge badge-dark">{{profile.public_gists}} Public Gists</span>
+            <span class="badge badge-dark">{{profile.public_repos}} Public Repos</span>
           </p>
           <p><a href="{{profile.html_url}}" target="_blank"
             class="btn btn-info btn-small">VIEW ON GITHUB</a></p>

@@ -1,3 +1,16 @@
 .nav{
   display: inline;
+  background-color:#CEE7FF;
+  padding-right: 10px;
+  border-radius: 20px;
+
+}
+.navbar-brand{
+  color: #CEE7FF;
+}
+.ul{
+  color: #4A4A4A;
+}
+.everything{
+
 }

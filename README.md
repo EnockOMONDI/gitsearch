@@ -1,4 +1,4 @@
-# Github search 
+# Github Finder V1.0.0
 
 This is an angular based project that is used to search for Repositories and users on github by typing their username or repository name.
 
@@ -19,14 +19,14 @@ To get a copy of the project on your machine:
   * Install angular CLI
   * A text editor
 
-## Versioning
+## Version
 
 Version 1.0.0
 
 ## Authors
 
-* **enock omondi**
-[Enockomondi] (https://enockomondi.github.io/gitsearch/)
+* **ENOCK OMONDI**
+[ENOCK OMONDI](https://github.com/EnockOMONDI)
 
 ## License
 
